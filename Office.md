@@ -1,8 +1,8 @@
-## 办公应用
+# 办公应用
 
-### 输入法
+## 输入法
 
-#### ibus + pinyin/sunpinyin
+### ibus + pinyin/sunpinyin
 
 - 介绍
 
@@ -25,7 +25,7 @@ sudo apt-get purge ibus ibus-pinyin ibus-sunpinyin
 ```
 
 
-#### fcitx + googlepinyin
+### fcitx + googlepinyin
 
 - 介绍
 
@@ -48,7 +48,7 @@ sudo apt-get purge fcitx fcitx-googlepinyin
 ```
 
 
-#### fcitx + sogoupinyin
+### fcitx + sogoupinyin
 
 - 介绍
 
@@ -70,9 +70,9 @@ sudo gdebi sogoupinyin_*_amd64.deb
 sudo dpkg -r sogoupinyin
 ```
 
-### 文档阅读
+## 文档阅读
 
-#### Evince
+### Evince
 
 - 介绍
 
@@ -94,7 +94,7 @@ sudo apt-get install evince
 sudo apt-get purge evince
 ```
 
-#### Okular
+### Okular
 
 - 介绍
 
@@ -116,7 +116,7 @@ sudo apt-get install okular
 sudo apt-get purge okular
 ```
 
-#### Foxit Reader
+### Foxit Reader
 
 - 介绍
 
@@ -140,13 +140,13 @@ cd FoxitReader.enu.setup.2.4.4.0911.x64.run/
 rm -rf ~/opt/foxitsoftware/foxitreader
 ```
 
-### 办公套件
+## 办公套件
 
-#### Libre Office
+### Libre Office
 
 Ship by default
 
-#### WPS Office
+### WPS Office
 
 - 介绍
 
@@ -168,9 +168,9 @@ sudo gdebi wps-office_*_amd64.deb
 sudo dpkg -r wps-office
 ```
 
-### 笔记记事
+## 笔记记事
 
-#### Google Keep
+### Google Keep
 
 - 介绍
 
@@ -180,10 +180,10 @@ Google 巨人开发的笔记服务
 
 [网页](https://keep.google.com/)
 
-#### WizNote
+### WizNote
 
 为知笔记 [linux版源代码](https://github.com/WizTeam/WizQTClient)
 
-#### NixNote
+### NixNote
 
 [Evernote 开源版本](https://sourceforge.net/projects/nevernote/)

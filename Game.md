@@ -1,8 +1,8 @@
-## 游戏娱乐
+# 游戏娱乐
 
-### 游戏平台
+## 游戏平台
 
-#### Steam
+### Steam
 
 - 介绍
 
@@ -26,9 +26,9 @@ sudo apt-get install steam
 sudo apt-get purge steam
 ```
 
-### Gnome自带小游戏
+## Gnome自带小游戏
 
-#### gnome-2048
+### gnome-2048
 
 - 介绍
 
@@ -50,7 +50,7 @@ sudo apt-get install gnome-2048
 sudo apt-get purge gnome-2048
 ```
 
-#### Gnomine
+### Gnomine
 
 - 介绍
 
@@ -72,7 +72,7 @@ sudo apt-get install gnomine
 sudo apt-get purge gnomine
 ```
 
-#### Sudoku
+### Sudoku
 
 - 介绍
 
@@ -94,7 +94,7 @@ sudo apt-get install gnome-sudoku
 sudo apt-get purge gnome-sudoku
 ```
 
-#### Quadrapassel
+### Quadrapassel
 
 - 介绍
 

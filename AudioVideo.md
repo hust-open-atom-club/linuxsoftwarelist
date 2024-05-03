@@ -1,8 +1,8 @@
-## 图像影音
+# 图像影音
 
-### 音乐播放
+## 音乐播放
 
-#### Spotify
+### Spotify
 
 - 介绍
 
@@ -26,7 +26,7 @@ sudo apt-get update && sudo apt-get install spotify-client
 sudo apt-get purge spotify-client
 ```
 
-#### FeelUOwn
+### FeelUOwn
 
 - 介绍
 
@@ -40,9 +40,9 @@ sudo apt-get purge spotify-client
 
 [安装方法](https://github.com/cosven/FeelUOwn#安装方法)
 
-#### 网易云音乐官方客户端
+### 网易云音乐官方客户端
 
-#### Banshee
+### Banshee
 
 - 介绍
 
@@ -64,7 +64,7 @@ sudo apt-get install banshee
 sudo apt-get purge banshee
 ```
 
-#### Rhythmbox
+### Rhythmbox
 
 - 介绍
 
@@ -86,9 +86,9 @@ sudo apt-get install rhythmbox
 sudo apt-get purge rhythmbox
 ```
 
-### 视频播放
+## 视频播放
 
-#### SMPlayer
+### SMPlayer
 
 - 介绍
 
@@ -110,7 +110,7 @@ sudo apt-get install smplayer
 sudo apt-get purge smplayer
 ```
 
-#### VLC
+### VLC
 
 - 介绍
 
@@ -132,7 +132,7 @@ sudo apt-get install vlc
 sudo apt-get purge vlc
 ```
 
-#### mpv
+### mpv
 
 - 介绍
 
@@ -156,7 +156,7 @@ sudo apt-get install mpv
 sudo apt-get purge mpv
 ```
 
-#### KODI(原XBMC)
+### KODI(原XBMC)
 
 - 介绍
 
@@ -183,9 +183,9 @@ sudo apt-get purge kodi
 注: 中文插件 [xbmc-addons-chinese](https://github.com/taxigps/xbmc-addons-chinese)
 
 
-### 屏幕录制
+## 屏幕录制
 
-#### SimpleScreenRecorder
+### SimpleScreenRecorder
 
 - 介绍
 
@@ -208,9 +208,9 @@ sudo apt-get purge simplescreenrecorder
 ```
 
 
-### 音频编辑
+## 音频编辑
 
-#### Audacity
+### Audacity
 
 - 介绍
 
@@ -233,9 +233,9 @@ sudo apt-get purge audacity
 ```
 
 
-### 图像浏览
+## 图像浏览
 
-#### Eye of GNOME(EOG)
+### Eye of GNOME(EOG)
 
 - 介绍
 
@@ -257,7 +257,7 @@ sudo apt-get install eog
 sudo apt-get purge eog
 ```
 
-#### gThumb
+### gThumb
 
 - 介绍
 
@@ -280,9 +280,9 @@ sudo apt-get purge gthumb
 ```
 
 
-### 图像编辑
+## 图像编辑
 
-#### GIMP
+### GIMP
 
 - 介绍
 
@@ -304,7 +304,7 @@ sudo apt-get install gimp
 sudo apt-get purge gimp
 ```
 
-#### Inkscape
+### Inkscape
 
 - 介绍
 
@@ -327,9 +327,9 @@ sudo apt-get purge inkscape
 ```
 
 
-### 截图工具
+## 截图工具
 
-#### shutter
+### shutter
 
 - 介绍
 
@@ -351,7 +351,7 @@ sudo apt-get install shutter
 sudo apt-get purge shutter
 ```
 
-#### Gnome Screenshot
+### Gnome Screenshot
 
 - 介绍
 
@@ -374,9 +374,9 @@ sudo apt-get purge gnome-screenshot
 ```
 
 
-### 画图工具
+## 画图工具
 
-#### Dia
+### Dia
 
 - 介绍
 

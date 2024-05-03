@@ -1,6 +1,8 @@
-### 配置工具
+# 配置
 
-#### Tweak Tool
+## 配置工具
+
+### Tweak Tool
 
 - 介绍
 
@@ -22,7 +24,7 @@ sudo apt-get install gnome-tweak-tool
 sudo apt-get purge gnome-tweak-tool
 ```
 
-#### Font Manager
+### Font Manager
 
 - 介绍
 

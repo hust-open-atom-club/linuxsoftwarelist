@@ -1,8 +1,8 @@
-## 教育科学
+# 教育科学
 
-### 教育软件
+## 教育软件
 
-#### Texmaker
+### Texmaker
 
 - 介绍
 
@@ -24,7 +24,7 @@ sudo apt-get install texmaker
 sudo apt-get purge texmaker
 ```
 
-#### Latexila
+### Latexila
 
 - 介绍
 
@@ -46,7 +46,7 @@ sudo apt-get install latexila
 sudo apt-get purge latexila
 ```
 
-#### Lyx
+### Lyx
 
 - 介绍
 
@@ -68,7 +68,7 @@ sudo apt-get install lyx
 sudo apt-get install lyx
 ```
 
-#### TeXstudio
+### TeXstudio
 
 - 介绍
 
@@ -90,7 +90,7 @@ sudo apt-get install texstudio
 sudo apt-get purge texstudio
 ```
 
-#### Texlive
+### Texlive
 
 - 介绍
 

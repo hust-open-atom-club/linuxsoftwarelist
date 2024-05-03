@@ -1,8 +1,8 @@
-## 网络应用
+# 网络应用
 
-### 网络浏览器
+## 网络浏览器
 
-#### Chrome
+### Chrome
 
 - 介绍
 
@@ -15,17 +15,17 @@ Chrome 浏览器是一款专为现代互联网开发的网络浏览器，高速�
 - 安装方法
 
 ```
-# 1. Install through deb package
+ 1. Install through deb package
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo gdebi google-chrome-stable_current_amd64.deb
 
-# 2. Install through software repo
+ 2. Install through software repo
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 sudo apt-get update
 sudo apt-get install google-chrome-stable
 
-# Or 
+ Or 
 sudo apt-get install google-chrome-beta
 sudo apt-get install google-chrome-unstable
 ```
@@ -42,7 +42,7 @@ sudo rm -rf /etc/apt/sources.list.d/google.list
 ```
 
 
-#### Firefox
+### Firefox
 
 - 介绍
 
@@ -57,10 +57,10 @@ sudo rm -rf /etc/apt/sources.list.d/google.list
 - 安装方法
 
 ```
-# 1. Firefox
+ 1. Firefox
 sudo apt-get install firefox firefox-locale-zh-hans
 
-# 2. Firefox PPA
+ 2. Firefox PPA
 sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
 sudo apt-get update
 sudo apt-get install firefox-trunk
@@ -69,17 +69,17 @@ sudo apt-get install firefox-trunk
 - 卸载方法
 
 ```
-# 1. Firefox
+ 1. Firefox
 sudo apt-get purge firefox firefox-locale-zh-hans
 
-# 2. Firefox PPA
+ 2. Firefox PPA
 sudo apt-get purge firefox-trunk
 sudo add-apt-repository -r ppa:ubuntu-mozilla-daily/ppa
 sudo apt-get update
 ```
 
 
-#### Chromium
+### Chromium
 
 - 介绍
 
@@ -94,10 +94,10 @@ Google Chrome浏览器的开源版本
 - 安装方法
 
 ```
-# 1. Chromium
+ 1. Chromium
 sudo apt-get install chromium
 
-# 2. Chromium PPA for Ubuntu/LinuxMint
+ 2. Chromium PPA for Ubuntu/LinuxMint
 sudo add-apt-repository  ppa:chromium-daily/stable
 sudo apt-get update
 sudo apt-get install chromium-browser
@@ -106,17 +106,17 @@ sudo apt-get install chromium-browser
 - 卸载方法
 
 ```
-# 1. Chromium
+ 1. Chromium
 sudo apt-get purge chromium
 
-# 2. Chromium PPA
+ 2. Chromium PPA
 sudo apt-get purge chromium-browser
 sudo add-apt-repository -r ppa:chromium-daily/stable
 sudo apt-get update
 ```
 
 
-#### Opera
+### Opera
 
 - 介绍
 
@@ -129,13 +129,13 @@ sudo apt-get update
 - 安装方法
 
 ```
-# 1. Add source in /etc/apt/sources.list
+ 1. Add source in /etc/apt/sources.list
 sudo add-apt-repository 'deb https://deb.opera.com/opera-stable/ stable non-free'
 wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install opera-stable
 
-# 2. Add source in /etc/apt/sources.list.d/opera.list
+ 2. Add source in /etc/apt/sources.list.d/opera.list
 sudo sh -c 'echo "deb https://deb.opera.com/opera-stable/ stable non-free" >> /etc/apt/sources.list.d/opera.list'
 wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
 sudo apt-get update
@@ -145,21 +145,21 @@ sudo apt-get install opera-stable
 - 卸载方法
 
 ```
-# 1. Add source in /etc/apt/sources.list
+ 1. Add source in /etc/apt/sources.list
 sudo apt-get purge opera-stable
 sudo add-apt-repository -r 'deb https://deb.opera.com/opera-stable/ stable non-free'
 sudo apt-get update
 
-# 2. Add source in /etc/apt/sources.list.d/opera.list
+ 2. Add source in /etc/apt/sources.list.d/opera.list
 sudo apt-get purge opera-stable
 sudo rm -rf /etc/apt/sources.list.d/opera.list
 sudo apt-get update
 ```
 
 
-#### Vivaldi
+### Vivaldi
 
-#### Maxthon
+### Maxthon
 
 - 介绍
 
@@ -182,9 +182,9 @@ sudo dpkg -r maxthon-browser-stable
 ```
 
 
-### 邮件客户端
+## 邮件客户端
 
-#### Thunderbird
+### Thunderbird
 
 - 介绍
 
@@ -197,10 +197,10 @@ sudo dpkg -r maxthon-browser-stable
 - 安装方法
 
 ```
-# 1. Thunderbird
+ 1. Thunderbird
 sudo apt-get install thunderbird
 
-# 2. Thunderbird PPA
+ 2. Thunderbird PPA
 sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
 sudo apt-get update
 sudo apt-get install thunderbird-trunk
@@ -209,16 +209,16 @@ sudo apt-get install thunderbird-trunk
 - 卸载方法
 
 ```
-# 1. Thunderbird
+ 1. Thunderbird
 sudo apt-get purge thunderbird
 
-# 2. Thunderbird PPA
+ 2. Thunderbird PPA
 sudo add-apt-repository -r ppa:ubuntu-mozilla-daily/ppa
 sudo apt-get update
 ```
 
 
-#### Evolution
+### Evolution
 
 - 介绍
 
@@ -240,9 +240,9 @@ sudo apt-get install evolution
 sudo apt-get purge evolution
 ```
 
-#### Geary
+### Geary
 
-#### Mutt
+### Mutt
 
 - 介绍
 
@@ -264,9 +264,9 @@ sudo apt-get install mutt
 sudo apt-get install mutt
 ```
 
-### 即时聊天
+## 即时聊天
 
-#### QQ
+### QQ
 
 - 介绍
 
@@ -277,7 +277,7 @@ sudo apt-get install mutt
 [Wine QQ](http://phpcj.org/wineqq/)
 
 
-#### WeChat
+### WeChat
 
 - 介绍
 
@@ -289,7 +289,7 @@ sudo apt-get install mutt
 2. 添加到 Chrome 之后，你就可以找到这个 Webchat 应用了或者在 Chrome 浏览器中输入 "chrome://apps/"，找到对应的应用；
 
 
-#### Skype
+### Skype
 
 - 介绍
 
@@ -316,7 +316,7 @@ sudo dpkg -r skypeforlinux
 
 目前只支持 64 位版本的 `deb` 和 `rpm` 安装包。
 
-#### Skype WebPage
+### Skype WebPage
 
 - 介绍
 
@@ -326,7 +326,7 @@ sudo dpkg -r skypeforlinux
 
 使用 Skype 的[网页版本](https://web.skype.com)
 
-#### BearyChat
+### BearyChat
 
 - 介绍
 
@@ -350,7 +350,7 @@ cd BearyChat-linux-x64/
 rm -rf BearyChat-linux-x64/ BearyChat-linux-x64.tar.gz
 ```
 
-#### Telegram Desktop
+### Telegram Desktop
 
 - 介绍
 
@@ -372,7 +372,7 @@ sudo apt-get install telegram-desktop
 sudo apt-get purge telegram-desktop
 ```
 
-#### Empathy
+### Empathy
 
 - 介绍
 
@@ -396,7 +396,7 @@ sudo apt-get install empathy
 sudo apt-get purge empathy
 ```
 
-#### Pidgin
+### Pidgin
 
 - 介绍
 
@@ -418,7 +418,7 @@ sudo apt-get install pidgin
 sudo apt-get purge pidgin
 ```
 
-#### HexChat
+### HexChat
 
 - 介绍
 
@@ -440,7 +440,7 @@ sudo apt-get install hexchat
 sudo apt-get purge hexchat
 ```
 
-#### Corebird
+### Corebird
 
 - 介绍
 
@@ -462,9 +462,9 @@ sudo apt-get install corebird
 sudo apt-get purge corebird
 ```
 
-### 文件传输
+## 文件传输
 
-#### FlareGet
+### FlareGet
 
 - 介绍
 
@@ -486,7 +486,7 @@ sudo gdebi flareget_4.3-95_amd64.deb
 sudo dpkg -r flareget
 ```
 
-#### UGet
+### UGet
 
 - 介绍
 
@@ -508,7 +508,7 @@ sudo apt-get install uget
 sudo apt-get purge uget
 ```
 
-#### Wget
+### Wget
 
 - 介绍
 
@@ -530,7 +530,7 @@ sudo apt-get install wget
 sudo apt-get purge wget
 ```
 
-#### Transmission
+### Transmission
 
 - 介绍
 
@@ -552,7 +552,7 @@ sudo apt-get install transmission
 sudo apt-get purge transmission
 ```
 
-#### qBittorrent
+### qBittorrent
 
 - 介绍
 
@@ -573,7 +573,7 @@ sudo apt-get install qbittorrent
 ```
 sudo apt-get purge qbittorrent
 ```
-#### Aria2
+### Aria2
 
 - 介绍
 
@@ -595,7 +595,7 @@ sudo apt-get install aria2
 sudo apt-get purge aria2
 ```
 
-#### Filezilla
+### Filezilla
 
 - 介绍
 
@@ -617,9 +617,9 @@ sudo apt-get install filezilla
 sudo apt-get purge filezilla
 ```
 
-### 云存储
+## 云存储
 
-#### 坚果云
+### 坚果云
 
 - 介绍
 
@@ -641,7 +641,7 @@ sudo gdebi nautilus_nutstore_amd64.deb
 sudo dpkg -r nautilus_nutstore
 ```
 
-#### Dropbox
+### Dropbox
 
 - 介绍
 
@@ -663,7 +663,7 @@ sudo apt install nautilus-dropbox
 sudo apt purge nautilus-dropbox
 ```
 
-#### OwnCloud
+### OwnCloud
 
 - 介绍
 
@@ -676,7 +676,7 @@ The last cloud collaboration/file sharing/file syncing/data privacy platform you
 - 安装方法
 
 ```
-# Debian 10
+ Debian 10
 su root
 echo 'deb http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Debian_10/ /' > /etc/apt/sources.list.d/isv:ownCloud:desktop.list
 wget -nv https://download.opensuse.org/repositories/isv:ownCloud:desktop/Debian_10/Release.key -O Release.key
@@ -684,7 +684,7 @@ apt-key add - < Release.key
 apt-get update
 apt-get install owncloud-client
 
-# Debian 9
+ Debian 9
 su root
 echo 'deb http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Debian_9.0/ /' > /etc/apt/sources.list.d/isv:ownCloud:desktop.list
 wget -nv https://download.opensuse.org/repositories/isv:ownCloud:desktop/Debian_9.0/Release.key -O Release.key
@@ -699,7 +699,7 @@ apt-get install owncloud-client
 sudo apt-get remove owncloud-client
 ```
 
-#### Google Drive
+### Google Drive
 
 - 介绍
 
@@ -709,7 +709,7 @@ Google巨人开发的文件存储和同步服务
 
 使用Google Drive的[网页版本](https://drive.google.com)
 
-#### 百度网盘
+### 百度网盘
 
 - 介绍
 
@@ -732,9 +732,9 @@ sudo dpkg -r baidunetdisk
 ```
 
 
-### 网络支付
+## 网络支付
 
-#### 支付宝
+### 支付宝
 
 - 介绍
 

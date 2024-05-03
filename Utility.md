@@ -1,8 +1,8 @@
-## 系统工具
+# 系统工具
 
-### 硬件查询
+## 硬件查询
 
-#### CPU-G
+### CPU-G
 
 - 介绍
 
@@ -26,7 +26,7 @@ sudo apt-get install cpu-g
 sudo apt-get purge cpu-g
 ```
 
-#### Hardinfo
+### Hardinfo
 
 - 介绍
 
@@ -48,7 +48,7 @@ sudo apt-get install hardinfo
 sudo apt-get purge hardinfo
 ```
 
-#### I-Nex
+### I-Nex
 
 - 介绍
 
@@ -70,7 +70,7 @@ sudo apt-get install cpu-g
 sudo apt-get install cpu-g
 ```
 
-#### Psensor
+### Psensor
 
 - 介绍
 
@@ -92,9 +92,9 @@ sudo apt-get install psensor
 sudo apt-get purge psensor
 ```
 
-### 系统监视
+## 系统监视
 
-#### System Monitor
+### System Monitor
 
 - 介绍
 
@@ -115,7 +115,7 @@ sudo apt-get install gnome-system-monitor
 sudo apt-get purge gnome-system-monitor
 ```
 
-#### Htop
+### Htop
 
 - 介绍
 
@@ -137,9 +137,9 @@ sudo apt-get install htop
 sudo apt-get purge htop
 ```
 
-### 远程控制
+## 远程控制
 
-#### TeamViewer
+### TeamViewer
 
 - 介绍
 
@@ -162,7 +162,7 @@ sudo dpkg -i teamviewer_amd64.deb
 sudo dpkg -r teamviewer
 ```
 
-#### Remmina
+### Remmina
 
 - 介绍
 
@@ -186,7 +186,7 @@ sudo apt-get install remmina
 sudo apt-get purge remmina
 ```
 
-#### AnyDesk
+### AnyDesk
 
 - 介绍
 
@@ -211,7 +211,7 @@ sudo gdebi anydesk_amd64.deb
 sudo dpkg -r anydesk
 ```
 
-#### Putty
+### Putty
 
 - 介绍
 
@@ -234,9 +234,9 @@ sudo apt-get purge putty
 ```
 
 
-### 终端模拟器
+## 终端模拟器
 
-#### Gnome Terminal
+### Gnome Terminal
  
 - 介绍
 
@@ -260,7 +260,7 @@ sudo apt-get install gnome-terminal
 sudo apt-get purge gnome-terminal
 ```
 
-#### Terminator
+### Terminator
 
 - 介绍
 
@@ -282,7 +282,7 @@ sudo apt-get install terminator
 sudo apt-get purge terminator
 ```
 
-#### tmux
+### tmux
 
 - 介绍
 
@@ -304,9 +304,9 @@ sudo apt-get install tmux
 sudo apt-get purge tmux
 ```
 
-### Shell
+## Shell
 
-#### Zsh
+### Zsh
 
 - 介绍
 
@@ -328,9 +328,9 @@ sudo apt-get install zsh
 sudo apt-get purge zsh
 ```
 
-### 启动盘制作工具
+## 启动盘制作工具
 
-#### UNetbootin
+### UNetbootin
 
 - 介绍
 
@@ -344,9 +344,9 @@ sudo apt-get purge zsh
 
 - 卸载方法
 
-### 包管理器
+## 包管理器
 
-#### Gdebi
+### Gdebi
 
 - 介绍
 
@@ -368,7 +368,7 @@ sudo apt-get install gdebi
 sudo apt-get purge gdebi
 ```
 
-#### Synaptic
+### Synaptic
 
 - 介绍
 
@@ -390,9 +390,9 @@ sudo apt-get install synaptic
 sudo apt-get purge synaptic
 ```
 
-### 电源管理
+## 电源管理
 
-#### Caffeine
+### Caffeine
 
 - 介绍
 
@@ -415,9 +415,9 @@ sudo apt-get purge caffeine
 ```
 
 
-### SSH Server/Client
+## SSH Server/Client
 
-#### Openssh Server
+### Openssh Server
 
 - 介绍
 
@@ -439,7 +439,7 @@ sudo apt-get install openssh-server
 sudo apt-get purge openssh-server
 ```
 
-#### Openssh Client
+### Openssh Client
 
 - 介绍
 

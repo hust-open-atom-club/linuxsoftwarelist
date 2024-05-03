@@ -1,8 +1,8 @@
-## 系统安全
+# 系统安全
 
-### 密码管理
+## 密码管理
 
-#### KeePass2
+### KeePass2
 
 - 介绍
 
@@ -24,7 +24,7 @@ sudo apt-get install keepass2
 sudo apt-get purge keepass2
 ```
 
-#### KeePassX
+### KeePassX
 
 - 介绍
 
@@ -46,9 +46,9 @@ sudo apt-get install keepassx
 sudo apt-get purge keepassx
 ```
 
-### 杀毒软件
+## 杀毒软件
 
-#### ClamAV/ClamTk
+### ClamAV/ClamTk
 
 - 介绍
 

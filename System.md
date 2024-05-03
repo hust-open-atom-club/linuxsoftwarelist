@@ -1,8 +1,8 @@
-## 系统管理
+# 系统管理
 
-### 文件管理
+## 文件管理
 
-#### Nautilus
+### Nautilus
 
 - 介绍
 
@@ -25,9 +25,9 @@ sudo apt-get purge nautilus
 ```
 
 
-### 压缩打包
+## 压缩打包
 
-#### FileRoller
+### FileRoller
 
 - 介绍
 
@@ -49,7 +49,7 @@ sudo apt-get install file-roller
 sudo apt-get purge file-roller
 ```
 
-#### UnZip
+### UnZip
 
 - 介绍
 
@@ -71,7 +71,7 @@ sudo apt-get install unzip
 sudo apt-get purge unzip
 ```
 
-#### Unrar
+### Unrar
 
 - 介绍
 
@@ -94,9 +94,9 @@ sudo apt-get purge unrar
 ```
 
 
-### 虚拟机
+## 虚拟机
 
-#### VMware Workstation
+### VMware Workstation
 
 - 介绍
 
@@ -121,7 +121,7 @@ sudo ./VMware-Workstation-Full-*.x86_64.bundle
 sudo vmware-installer -u vmware-workstation
 ```
 
-#### VirtualBox
+### VirtualBox
 
 - 介绍
 
@@ -134,14 +134,14 @@ Sun公司开发的完全开源的x86模拟器
 - 安装方法
 
 ```
-# 1. Install from deb package
-# Ubuntu 18.04 / 18.10 / 19.04 / Debian 10
+ 1. Install from deb package
+ Ubuntu 18.04 / 18.10 / 19.04 / Debian 10
 wget https://download.virtualbox.org/virtualbox/6.0.8/virtualbox-6.0_6.0.8-130520~Ubuntu~bionic_amd64.deb -O virtualbox.deb
-# Debian 9
+ Debian 9
 https://download.virtualbox.org/virtualbox/6.0.8/virtualbox-6.0_6.0.8-130520~Debian~stretch_amd64.deb -O virtualbox.deb
 sudo gdebi virtualbox.deb
 
-# 2. Install through software repo
+ 2. Install through software repo
 sudo sh -c 'echo "deb https://download.virtualbox.org/virtualbox/debian stretch contrib" > /etc/apt/sources.list.d/virtualbox.list'
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 sudo apt-get update
@@ -154,7 +154,7 @@ sudo apt-get install virtualbox-6.0
 sudo apt-get purge virtualbox-6.0
 ```
 
-#### Vagrant
+### Vagrant
 
 - 介绍
 
@@ -169,25 +169,25 @@ Vagrant 提供了一个易于配置，可重复使用，兼容的环境，通过
 - 安装方法
 
 ```
-# 1. install from downloaded package
+ 1. install from downloaded package
 wget https://releases.hashicorp.com/vagrant/2.2.2/vagrant_2.2.2_x86_64.deb
 sudo gdebi vagrant_2.2.2_x86_64.deb
 
-# 2. install from apt-get
+ 2. install from apt-get
 sudo apt install vagrant
 ```
 
 - 卸载方法
 
 ```
-# 1. uninstall from downloaded package
+ 1. uninstall from downloaded package
 sudo dpkg -r vagrant
 
-# 2. uninstall from apt-get
+ 2. uninstall from apt-get
 sudo apt-get purge vagrant
 ```
 
-#### Docker
+### Docker
 
 - 介绍
 
@@ -223,7 +223,7 @@ sudo apt-get install docker-ce
 sudo apt-get purge docker-ce
 ```
 
-#### Boxes
+### Boxes
 
 - 介绍
 
@@ -245,7 +245,7 @@ sudo apt-get install gnome-boxes
 sudo apt-get purge gnome-boxes
 ```
 
-#### QEMU & QEMU-KVM
+### QEMU & QEMU-KVM
 
 - 介绍
 

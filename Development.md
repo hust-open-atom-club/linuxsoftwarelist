@@ -1,9 +1,8 @@
+# 程序开发
 
-## 程序开发
+## 版本控制
 
-### 版本控制
-
-#### Git
+### Git
 
 - 介绍
 
@@ -27,7 +26,7 @@ sudo apt-get install git
 sudo apt-get purge git
 ```
 
-#### SVN
+### SVN
 
 - 介绍
 
@@ -51,9 +50,9 @@ sudo apt-get install subversion
 sudo apt-get install subversion
 ```
 
-### 本文编辑器
+## 本文编辑器
 
-#### Sublime Text
+### Sublime Text
 
 - 介绍
 
@@ -71,10 +70,10 @@ A sophisticated text editor for code, markup and prose
 sudo apt-get install apt-transport-https
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 
-# Stable
+ Stable
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 
-# Dev
+ Dev
 echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 
 sudo apt-get update
@@ -87,7 +86,7 @@ sudo apt-get install sublime-text
 sudo apt-get purge sublime-text
 ```
 
-#### Visual Studio Code
+### Visual Studio Code
 
 - 介绍
 
@@ -100,11 +99,11 @@ sudo apt-get purge sublime-text
 - 安装方法
 
 ```
-# 1. Install from deb package
-# Download deb package from https://code.visualstudio.com/
+ 1. Install from deb package
+ Download deb package from https://code.visualstudio.com/
 sudo gdebi code_*_amd64.deb
 
-# 2. Install from software repo
+ 2. Install from software repo
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
@@ -116,13 +115,13 @@ sudo apt-get install code
 - 卸载方法
 
 ```
-# 1.
+ 1.
 sudo dpkg -r code
-# 2.
+ 2.
 sudo apt-get purge code
 ```
 
-#### gedit
+### gedit
 
 - 介绍
 
@@ -146,7 +145,7 @@ sudo apt-get install gedit
 sudo apt-get purge gedit
 ```
 
-#### Atom
+### Atom
 
 - 介绍
 
@@ -159,30 +158,30 @@ sudo apt-get purge gedit
 - 安装方法
 
 ```
-# 1. install from package
-# Download deb package from https://atom.io/
+ 1. install from package
+ Download deb package from https://atom.io/
 sudo gdebi atom-amd64.deb
 
-# 2. install from source list
+ 2. install from source list
 curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
 sudo apt-get update
 sudo apt-get install atom
 
-# Or
+ Or
 sudo apt-get install atom-beta
 ```
 
 - 卸载方法
 
 ```
-# 1.
+ 1.
 sudo dpkg -r atom
-# 2.
+ 2.
 sudo apt-get purge atom
 ```
 
-#### Vim
+### Vim
 
 - 介绍
 
@@ -204,7 +203,7 @@ sudo apt-get install vim
 sudo apt-get purge vim
 ```
 
-#### Emacs
+### Emacs
 
 - 介绍
 
@@ -226,7 +225,7 @@ sudo apt-get install emacs
 sudo apt-get purge emacs
 ```
 
-#### Nano
+### Nano
 
 - 介绍
 
@@ -248,23 +247,9 @@ sudo apt-get install nano
 sudo apt-get purge nano
 ```
 
-### 集成开发环境
+## 集成开发环境
 
-#### Eclipse IDE
-
-- 介绍
-
-- 下载位置
-
-[官方网站]()
-
-[下载位置]()
-
-- 安装方法
-
-- 卸载方法
-
-#### JetBrains IDE
+### Eclipse IDE
 
 - 介绍
 
@@ -278,7 +263,21 @@ sudo apt-get purge nano
 
 - 卸载方法
 
-#### Wireshark
+### JetBrains IDE
+
+- 介绍
+
+- 下载位置
+
+[官方网站]()
+
+[下载位置]()
+
+- 安装方法
+
+- 卸载方法
+
+### Wireshark
 
 - 介绍
 
@@ -302,7 +301,7 @@ sudo apt-get install wireshark
 sudo apt-get purge wireshark
 ```
 
-#### Code Blocks
+### Code Blocks
 
 - 介绍
 
