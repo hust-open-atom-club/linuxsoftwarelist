@@ -270,11 +270,12 @@ sudo apt-get install mutt
 
 - 介绍
 
-支持在线聊天、视频电话、点对点断点续传文件的强大聊天软件
+支持在线聊天、视频电话(Linux版暂不支持)、点对点断点续传文件的强大聊天软件
 
 - 安装方法
 
-[Wine QQ](http://phpcj.org/wineqq/)
+1. 用浏览器打开[QQ](https://im.qq.com/linuxqq/index.shtml)；
+2. 下载对应的架构和软件包格式安装即可。
 
 
 ### WeChat
@@ -285,8 +286,11 @@ sudo apt-get install mutt
 
 - 安装方法
 
-1. 用 Chrome 浏览器 打开 [Webchat](https://chrome.google.com/webstore/detail/wechat/ckhliaadcjmdjbhdlkpjkffidcifglba?utm_source=chrome-app-launcher-info-dialog) 应用；
-2. 添加到 Chrome 之后，你就可以找到这个 Webchat 应用了或者在 Chrome 浏览器中输入 "chrome://apps/"，找到对应的应用；
+1. UOS用户可以使用Wechat-UOS版本，在[星火商店](https://www.spark-app.store/)自行安装即可。
+2. Arch用户可以使用如下命令安装：
+```
+yay -S wechat-beta-bwarp
+```
 
 
 ### Skype
